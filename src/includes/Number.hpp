@@ -12,14 +12,25 @@ class Fraction {
 	public:
 		Fraction() = delete;
 		Fraction(int a, int b);
-}
+
+
+		/** Member methods */
+		void setNum(int n) { num = n; }
+		void setDen(int n) { den = n; }
+
+		int getNum() const { return num; }
+		int getDen() const { return den; }
+
+		void print();
+};
 
 
 /** Incomplete */
 
 class Number {
 	private:
-		int x;
+		int dec;
+		Fraction fra;
 };
 
 

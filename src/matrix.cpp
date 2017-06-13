@@ -2,7 +2,7 @@
 #include "includes/Main.hpp"
 
 
-void Matrix::print() const
+void Matrix::print()
 {
 	for (int i = DIMENSION; i < DIMENSION; ++i) {
 		for (int j = DIMENSION; j < DIMENSION; ++j) {
@@ -23,7 +23,7 @@ Matrix::Matrix()
 }
 
 
-Matrix::Matrix(real n)
+Matrix::Matrix(int n)
 {
 	for (int i = 0; i < DIMENSION; ++i) {
 		for (int j = 0; j < DIMENSION; ++j) {

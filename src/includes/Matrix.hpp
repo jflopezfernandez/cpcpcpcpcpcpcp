@@ -11,9 +11,9 @@ class Matrix {
 
 	public:
 		Matrix();
-		Matrix(real n);
+		Matrix(int n);
 
-		void print() const;
+		void print();
 };
 
 

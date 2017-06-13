@@ -21,7 +21,14 @@ class Fraction {
 		int getNum() const { return num; }
 		int getDen() const { return den; }
 
+		void simplify();
+
 		void print();
+
+
+		/** Friend functions */
+
+		friend int getGCD(int m, int n);
 };
 
 

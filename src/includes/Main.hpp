@@ -6,10 +6,15 @@
  *
  */
 
-const int TRUE 	= 1;
-const int FALSE = 0;
+const int TRUE 	=  1;
+const int FALSE =  0;
 
 const int ERROR = -1;
+
+
+/** Debug Constants */
+
+const int DEBUG = TRUE;
 
 
 /** Header Files 
@@ -17,6 +22,8 @@ const int ERROR = -1;
  */
 
 #include <iostream>
+#include <sstream>
+#include <memory>
 
 #include <cstdio>
 #include <cstdlib>
